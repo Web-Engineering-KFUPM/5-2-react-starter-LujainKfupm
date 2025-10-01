@@ -1,9 +1,9 @@
-function StudentCard() {
+function StudentCard(prop) {
     return (
         <div className="student-card">
-            <h3>Lujain</h3>
-            <p>ID: 202249140</p>
-            <p>Department: Information and Computer Science</p>
+            <h3>{prop.name}</h3>
+            <p>ID: {prop.id}</p>
+            <p>Department: {prop.department}</p>
         </div>
     );
 }
