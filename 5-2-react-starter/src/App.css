@@ -44,4 +44,17 @@
   margin: 0 auto;
 }
 
-/* Add your custom styles below */
+.student-card {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.student-card h3 {
+    color: #000;
+}
+
+.student-card p {
+    color: #333;
+}
+
